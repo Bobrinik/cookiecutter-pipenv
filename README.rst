@@ -2,18 +2,10 @@
 Cookiecutter Python Package Template with Pipenv
 ================================================
 
-|travis| |donate|
-
-.. |travis| image:: https://img.shields.io/travis/com/elgertam/cookiecutter-pipenv.svg
-    :target: https://travis-ci.com/elgertam/cookiecutter-pipenv
-
-.. |donate| image:: https://img.shields.io/badge/donate-PayPal-blue.svg?logo=paypal
-    :target: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=CPTWMKWMVXDQW&currency_code=USD&source=url
-
 
 Cookiecutter_ template for a Python package with Pipenv_.
 
-* GitHub repo: https://github.com/elgertam/cookiecutter-pipenv/
+* This GitHub repo is a fork of https://github.com/elgertam/cookiecutter-pipenv/
 * Documentation: https://cookiecutter-pipenv.readthedocs.io/
 * Free software: BSD license
 
@@ -30,9 +22,6 @@ Features
 --------
 
 * Testing setup with ``unittest`` and ``python setup.py test`` or ``py.test``
-* Travis-CI_: Ready for Travis Continuous Integration testing
-* Tox_ testing: Setup to easily test for Python 2.7, 3.5, 3.6, 3.7
-* Sphinx_ docs: Documentation ready for generation with, for example, ReadTheDocs_
 * Bumpversion_: Pre-configured version bumping with a single command
 * Auto-release to PyPI_ when you push a new tag to master (optional)
 * Command line interface using Click (optional)
@@ -56,7 +45,7 @@ Install the latest Pipenv::
 
 Generate a Python project that uses Pipenv::
 
-    cookiecutter gh:elgertam/cookiecutter-pipenv
+    cookiecutter gh:bobrinik/cookiecutter-pipenv
 
 Once your project has been created, change directories::
 
@@ -91,10 +80,6 @@ Or Submit a Pull Request
 
 I will consider pull requests as they come in, if they enhance the overall packaging experience.
 
-.. _Travis-CI: http://travis-ci.org/
-.. _Tox: http://testrun.org/tox/
-.. _Sphinx: http://sphinx-doc.org/
-.. _ReadTheDocs: https://readthedocs.io/
 .. _`pyup.io`: https://pyup.io/
 .. _Bumpversion: https://github.com/peritus/bumpversion
 .. _PyPi: https://pypi.org/
